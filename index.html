@@ -9,57 +9,105 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to Epidcodus</h1>
+        <h1>Welcome to Epicodus</h1>
         <h6>Fill out this survey to find your track</h6>
-          <form>
-            <div class="form-group">
+          <form id="DevQuiz">
+            <!--<div class="form-group">
               <label for="name">Please tell us your name.</label>
               <input type="text" class="form-control" id="name-1" placeholder="Enter name">
-            </div>
-            <div class="form-group" id="age">
-                <label for="text">What is your favorite programming langauge?</label>
+            </div>-->
+            <div class="form-group">
+                <label for="Genres">What kind of programming language would you like</label>
+                <select class="form-control" id="genres">
+                  <option default>Select Genre</option>
+                  <option value="1">One that is complex</option>
+                  <option value="2">Hard to learn at first</option>
+                  <option value="3">One that is universal</option>
+                  <option value="4">Anything is fine</option>
+                </select>
+              </div>
+
+
+            <div class="form-group">
+                <label for="framework">Which location are you located at and/or near?</label>
+                <select class="form-control" id="location">
+                  <option default>Select Location</option>
+                  <option value="5">Washington State</option>
+                  <option value="6">California</option>
+                  <option value="7">New York</option>
+                  <option value="8">Texas</option>
+                  <option value="9">Florida</option>
+                  <option value="10">Washington District of Columbia</option>
+                  <option value="11">Illinois</option>
+                  <option valuie="11">Arizona</option>
+                </select>
+              </div>
+
+
+            <div class="form-group" id="time">
+                <label for="text">How much time do you dedicate to study</label>
                   <div class="radio">
                   <label>
                   <input type="radio"  name="language"value="easy">
-                    <em>Python</em>
+                    <em>15-20 minutes</em>
                   <input type="radio"  name="language"value="easy">
-                    <em>Javascript</em>
+                    <em>Only the weekends</em>
                   <input type="radio" name="language"value="micro">
-                 <em>C#</em>
+                 <em>Monday-Friday</em>
                   <input type="radio" name="language"value="micro">
-                 <em>Ruby</em>
+                 <em>I code 24-7</em>
                   </label>
                  </div>
                </div>
             <div class="form-group">
-              <label for="framework">Please select your favorite framework</label>
-              <select class="form-control" id="Genres">
+              <label for="framework">What kind of level would you place yourself</label>
+              <select class="form-control" id="role">
                 <option default>Select Role</option>
-                <option>REACT</option>
-                <option>.NET</option>
-                <option>Django</option>
-                <option>Ruby on Rails</option>
+                <option value="begin">Beginner</option>
+                <option value="inter">Intermediate</option>
+                <option value="adv">Advanced</option>
+                <option value="ex">Expert</option>
               </select>
             </div>
-            
             <div class="form-group" id="idea">
-                <label for="text">What type of work would you like to work in?</label>
+                <label for="skill">What type of work would you like to work in?</label>
                   <div class="radio">
                   <label>
-                  <input type="radio"  name="language"value="easy">
+                  <input type="radio"  name="select"value="front">
                     <em>Front-end</em>
-                  <input type="radio"  name="language"value="easy">
+                  <input type="radio"  name="select"value="back">
                     <em>Back-end</em>
-                    <input type="radio"  name="language"value="easy">
+                    <input type="radio"  name="select"value="full">
                     <em>Full-stack</em>  
                   </label>
                  </div>
                </div>
-
-
-
             <button type="submit" class="btn btn-primary" id="enter">Submit Survey</button>
-        </form>  
-      </div>
+            </form>
+
+
+            <div class="results">
+                
+                <img src="img/python.jpeg" id="python">
+                <img src="img/ruby.jpeg" id="ruby">
+                </div>
+         
+                <div class="hard">
+                    <img src="img/c++.jpeg" id="c++">
+                    <img src="img/csharp.png" id="csharp">
+                </div>
+         
+                <div class="universal">
+                    <img src="img/java.jpeg" id="java">
+                    <img src="img/javascript.jpeg" id="javascript">
+                </div>
+            
+                <div class="any">
+                    <img src="img/php.jpeg" id="php">
+                    <img src="img/swift.jpeg" id="swift">
+                </div>
+         
+              </div>
+              </div>
 </body>
 </html>
