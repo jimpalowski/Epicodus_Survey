@@ -1,8 +1,8 @@
-#Author
+## Author
 
 Jim Palowski
 
-#Epicodus Survey
+## Epicodus Survey
 _{A simple survey}_
 #Setup
 
