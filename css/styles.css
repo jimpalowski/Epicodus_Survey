@@ -1,7 +1,54 @@
 body{
     background-color:lightblue;
 }
+#python2{
+    display: none;
+    text-align: center;
+}
 
-img{
+#ruby2{
+    display: none;
+    text-align: center;
+}
+
+#cplus{
+    display: none;
+    text-align: center;
+}
+
+#csharp{
+    display: none;
+    text-align: center;
+}
+
+
+#java{
+    display: none;
+    text-align: center;
+
+}
+
+#javascript{
+    display: none;
+    text-align: center;
+}
+
+#php{
+    display: none;
+    text-align: center;
+
+}
+
+#swift{
+    display: none;
+    text-align: center;
+}
+
+p{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#NONE{
     display: none;
 }

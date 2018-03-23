@@ -20,10 +20,9 @@
                 <label for="Genres">What kind of programming language would you like</label>
                 <select class="form-control" id="genres">
                   <option default>Select Genre</option>
-                  <option value="1">One that is complex</option>
-                  <option value="2">Hard to learn at first</option>
-                  <option value="3">One that is universal</option>
-                  <option value="4">Anything is fine</option>
+                  <option value="Complex">One that is complex</option>
+                  <option value="Hard">Hard to learn at first</option>
+                  <option value="Universal">One that is universal</option>
                 </select>
               </div>
 
@@ -32,14 +31,9 @@
                 <label for="framework">Which location are you located at and/or near?</label>
                 <select class="form-control" id="location">
                   <option default>Select Location</option>
-                  <option value="5">Washington State</option>
-                  <option value="6">California</option>
-                  <option value="7">New York</option>
-                  <option value="8">Texas</option>
-                  <option value="9">Florida</option>
-                  <option value="10">Washington District of Columbia</option>
-                  <option value="11">Illinois</option>
-                  <option valuie="11">Arizona</option>
+                  <option value="WA">Washington State</option>
+                  <option value="CA">California</option>
+                  <option value="NY">New York</option>
                 </select>
               </div>
 
@@ -48,13 +42,11 @@
                 <label for="text">How much time do you dedicate to study</label>
                   <div class="radio">
                   <label>
-                  <input type="radio"  name="language"value="easy">
-                    <em>15-20 minutes</em>
-                  <input type="radio"  name="language"value="easy">
-                    <em>Only the weekends</em>
-                  <input type="radio" name="language"value="micro">
+                  <input type="radio"  name="language"value="Weekend">
+                    <em>Weekends</em>
+                  <input type="radio" name="language"value="M-F">
                  <em>Monday-Friday</em>
-                  <input type="radio" name="language"value="micro">
+                  <input type="radio" name="language"value="24-7">
                  <em>I code 24-7</em>
                   </label>
                  </div>
@@ -64,9 +56,9 @@
               <select class="form-control" id="role">
                 <option default>Select Role</option>
                 <option value="begin">Beginner</option>
-                <option value="inter">Intermediate</option>
-                <option value="adv">Advanced</option>
-                <option value="ex">Expert</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+
               </select>
             </div>
             <div class="form-group" id="idea">
@@ -87,26 +79,48 @@
 
 
             <div class="results">
-                
-                <img src="img/python.jpeg" id="python">
-                <img src="img/ruby.jpeg" id="ruby">
+                <div id="python2">
+                    <p>You are best suited for Python</p>    
+                    <img src="img/python.jpeg">
                 </div>
-         
-                <div class="hard">
-                    <img src="img/c++.jpeg" id="c++">
-                    <img src="img/csharp.png" id="csharp">
+                <div id="ruby2">
+                    <p>You are best suited for Ruby</p>
+                    <img src="img/ruby.jpeg">
                 </div>
-         
-                <div class="universal">
-                    <img src="img/java.jpeg" id="java">
-                    <img src="img/javascript.jpeg" id="javascript">
+                <div id="cplus">
+                    <p>You are best suited for C++</p>
+                    <img src="img/c++.jpeg">
                 </div>
-            
-                <div class="any">
-                    <img src="img/php.jpeg" id="php">
-                    <img src="img/swift.jpeg" id="swift">
+
+                <div id="csharp"> 
+                    <p>You are best suited for C#</p>   
+                    <img src="img/csharp.png">
                 </div>
-         
+
+                <div id="java">
+                    <p>You are best suited for Java</p>
+                    <img src="img/java.jpeg">
+                </div>
+
+                <div id="javascript">
+                        <p>You are best suited for JavaScript</p>   
+                    <img src="img/javascript.jpeg">    
+                </div>
+
+                <div id="php">
+                    <p>You are best suited for PHP</p>
+                    <img src="img/php.jpeg">
+                </div>
+
+                <div id="swift"> 
+                        <p>You are best suited for Swift</p>   
+                    <img src="img/swift.jpeg">
+                </div>
+                <div id= "NONE">
+                <p>Sorry, we didn't find a match</p>
+                    <img src="img/error.png">
+                </div>
+
               </div>
               </div>
 </body>
