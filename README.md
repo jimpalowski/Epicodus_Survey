@@ -4,8 +4,8 @@ Jim Palowski
 
 ## Epicodus Survey
 _{A simple survey}_
-#Setup
 
+## Setup
 
 _{Pick an answer for every box to get a result}_
 
